@@ -1,0 +1,39 @@
+<div data-sly-test="${wcmmode.edit}">
+    Edit the image text component.
+</div>
+
+<section class="section--pingpong__${properties.imagePosition}img" data-sly-use.model=use.js style="background-color:${properties.backgroundcolor @ context='attribute'};">
+  <div class="wrapper__flex layer__content--3 grad">
+    <div class="image--${properties.imagePosition}"> <img class="shadow--square" src="${properties.img}"> </div>
+    <div class="wrapper__flex--copy--${model.textPosition}">
+      <div class="copy--${model.textPosition}">
+		${properties.text @context="html"}
+        ${properties.body @context="html"}
+        <sly data-sly-test="${properties.isMultiButton}">
+        	<div class="hopper-alexa-play">
+         </sly>
+        <div class="cta__button--pill cta__button--pill--black"><a href="${properties.button1Link}">${properties.button1}</a></div>
+		<sly data-sly-test="${properties.isMultiButton}">
+
+			<div class="cta__button--pill cta__button--pill--black alexa-video-btn"> <a class="dishOverlay" data-overlay-url="${properties.overlayUrl}" data-overlay-iframe="true" href="${properties.button2Link}"><span class="">${properties.button2}</span><span><img class="dark-btn" data-alt-src="${properties.button2AltImg}" src="${properties.button2Img}"></span></a></div>
+			</div>
+         </sly>
+            <div data-sly-test="${wcmmode.edit}">
+    Edit the disclaimer1 component.
+</div>
+  <div class="disclaimer" id="dish-anywhere" style="text-align: left;">
+     ${properties.disclaimer1}
+  </div>
+
+      </div>
+    </div>
+  </div>
+  <div>
+</div>
+
+</section>
+
+
+
+
+

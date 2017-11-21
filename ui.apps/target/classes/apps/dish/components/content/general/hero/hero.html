@@ -1,0 +1,99 @@
+
+<div data-sly-test="${wcmmode.edit}">
+    Edit the Hero Banner Component.
+</div>
+<section id="banner__echodot--lp" data-sly-use.model="use.js">
+	<div class="wrapper__flex--banner">
+		<div class="wrapper__banner--left">
+			<div class="wrapper__content--banner--left">
+				<div class="wrapper__left--top">
+					<div class="top--left">
+						<h1>${properties.headline1}</h1>
+						<h2>190 Channels${properties.headline2}</h2>
+						<div class="wrapper__flex--prices">
+							<div class="wrapper__pricepoint price--crossed">
+								<p>
+									<span class="dolla--sign">$</span> <span class="amount">${properties.price1}</span>
+									<span class="cents">${properties.cent1}</span> <span
+										class="month">/mo</span>
+								</p>
+							</div>
+							<div class="wrapper__pricepoint price--bold">
+								<p>
+									<span class="dolla--sign">$</span> <span class="amount">${properties.price2}</span>
+									<span class="cents">${properties.cent2}</span> <span
+										class="month">/mo</span>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div id="wrapper--topright">
+						<ul>
+							<sly data-sly-list.lists=${model.lists}>
+							<li>${lists.text}</li>
+							</sly>
+							<li><a href="${properties.channelUrl}"
+								class="red-txt hero-active smoothScrolling">${properties.channelText}</a></li>
+						</ul>
+					</div>
+				</div>
+			<div class="wrapper__left--bottom centered">
+					<div id="cta__echodot--green">
+						<div class="cta__button--pill--green cta__button--pill" style="color:white;border-radius:45px;padding:1rem 1.5rem;width:235px;background-color:#8bc525;text-decoration:underline;">
+							<a href="tel:${properties.contactNumber}" class="sevenHundo aphone centered">
+								<span>${properties.contactText} </span>
+								<span id="click-to-call" class="phoneNum inphone">${properties.contactNumber}</span>
+							</a>
+						</div>
+						<div class="box--bottom">
+							<a href="${properties.orderLink}"
+								class="centered cta__order--text">${properties.orderText}</a>
+						</div>
+						<p class="dot-limited-dish">
+							${properties.orderSupportingText1} <span
+								class="red-txt js-offercode">${properties.orderSupportingText2}
+							</span>
+						</p>
+					</div>
+					<div id="bullets__echodot--red">
+						<div id="box__offer--echo" class="box__offer--wrapper">
+							<p class="title__offer--echo">${properties.echoText}</p>
+							<div class="wrapper__bullet--red" id="bullet__red--one">
+								<p class="title__offer--dotsub">${properties.dotsubTitle1}</p>
+								<div class="offer-dishAmazon">
+									<p class="text__offer--description">${properties.offerDescription}</p>
+								</div>
+							</div>
+							<div class="wrapper__bullet--red" id="bullet__black--two">
+								<p class="title__offer--dotsub">${properties.dotsubTitle2}</p>
+
+							</div>
+							<div class="wrapper__bullet--red" id="bullet__red--three">
+
+								<p class="title__offer--dotsub">
+									${properties.dotsubTitle3}
+                                    <p class="text__offer--description">${properties.offerDescription1}</p>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper__banner--right">
+			<img src="${properties.img1}"
+				class="lockup__small"> <img
+				src="${properties.img2}"
+				class="lockup__large"> <span class="alexa-video-content"><div
+					class="cta__button--pill cta__button--pill--black alexa-video-btn">
+					<a class="dishOverlay"
+						data-overlay-url="${properties.overlayUrl}"
+data-overlay-iframe="true" href="${properties.url}"><span class="">${properties.buttonText}</span><span><img
+							class="dark-btn" data-alt-src="${properties.buttonAltImg}"
+							src="${properties.buttonImg}"></span></a>
+				</div></span>
+		</div>
+
+	</div>
+	<p class="disclaimer centered">${properties.disclaimerText}</p>
+</section>

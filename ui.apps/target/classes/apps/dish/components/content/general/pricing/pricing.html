@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="https://www.dish.com/css/dish-global.css">
+<sly data-sly-use.colCount="${'pricing.js' @ propName='colCount'}"></sly>
+
+<section id="package-at" class="">
+  <!--h2 class="centered"><sly data-sly-resource="${ @path='col1-title', resourceType='sling-tv/components/content/general/rich-text'}"></sly></h2-->
+<div><sly data-sly-resource="${ @path='blue-line', resourceType='/apps/dish-network/components/content/blue-line'}"></sly></div>
+
+<div class="at-main proximathin">
+    <div id="feat-car-wrap" class="finiteSlider wrapper__flex layer__content--3 grad" data-sly-list.contentCount="${colCount}">
+
+	<sly data-sly-test.path="${contentCountList.count}-price"></sly>
+<div data-sly-resource="${ @path=path, resourceType='/apps/dish-network/components/content/pricepackageutil'}"></div>
+
+<!--sly data-sly-test.path="${contentCountList.count}-col1"></sly>
+       <li><sly data-sly-resource="${ @path=path, resourceType='/apps/dish-network/components/structure/linkutil'}"></sly></li-->
+   </div>
+  </div>
+</section>

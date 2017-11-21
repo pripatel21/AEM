@@ -1,0 +1,908 @@
+/*hero banner section*/
+
+
+
+
+.price {
+	font-size: 4.6875rem;
+}
+.hughesnet-content {
+}
+.fiveHundo {
+	font-weight: 500 !important;
+}
+.sixHundo {
+	font-weight: 600 !important;
+}
+.nineHundo {
+	font-weight: 900 !important;
+}
+.cta--phone {
+	margin: 1rem 0 .7rem;
+}
+.cta--order--text a {
+	color: #8bc525;
+	text-decoration: underline;
+	font-size: 12px;
+}
+#first-section {
+	padding: 3.125rem 0 !important;
+}
+.section--pingpong__rightimg {
+	padding: 3.125rem 0 !important;
+}
+.section--pingpong__rightimg {
+	padding: 3.125rem 0 !important;
+}
+#disclaimer--btm {
+	padding: 0 0 1.2rem 0 !important;
+}
+.button--pill--green {
+	padding: .7rem 1.6rem;
+	color: #fff;
+	background: #8bc525;
+	font-size: 16px;
+	border-radius: 30px;
+	-webkit-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-out;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.pack-america {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: relative;
+}
+.font-price {
+	padding-left: 23px;
+}
+/*hero fonts*/
+
+.hero-pack {
+	width: 160px;
+	border-right: 2px solid black;
+}
+.hero-pack:nth-child(2) {
+	border-right: none;
+}
+/*line and content*/
+.line-content {
+	width: 100%;
+	margin: 0 auto;
+}
+.line-across {
+	border-top: 2px solid #007cc0;
+	width: 60%;
+	margin: 0 auto;
+}
+.line-content h3 {
+	line-height: 1.5rem;
+	margin-top: -.79rem;
+	padding-bottom: 17px;
+}
+.line-content h3 span {
+	background: #f2f5f7;
+	padding: 0 4px;
+}
+.line-content h3 {
+	font-size: 12px;
+	color: #007cc0;
+}
+/*AT section*/
+/*#package-at {
+    background: #f2f5f7;
+}*/
+.pl-price {
+	font-size: 42px;
+}
+.plan-dollor {
+	position: relative;
+	top: -17px;
+	font-size: 17px;
+}
+.mo {
+	position: relative;
+	left: -23px;
+	top: 0px;
+	font-size: 14px;
+}
+.plan-cent {
+	font-size: 20px;
+	top: -14px;
+}
+.font-120 {
+	font-size: 12px;
+	font-weight: 600;
+	padding-bottom: 7px;
+}
+.font-channel {
+	font-size: 14px;
+	font-weight: 300;
+	padding-bottom: 7px;
+}
+.font-channel-include {
+	font-size: 12px;
+	font-weight: 300;
+	padding-bottom: 7px;
+}
+.font-view {
+	font-size: 12px;
+}
+#package-at {
+	padding: 1.125rem 0 !important;
+}
+#package-at h2 {
+	font-size: 22px;
+	font-weight: 900;
+	padding-bottom: 23px;
+}
+.at-content {
+	text-align: center;
+}
+.under-line:hover {
+	text-decoration: underline !important;
+}
+#dish-anywhere {
+	font-size: 10px;
+	line-height: 1.2;
+	text-align: left;
+	padding-top: 20px;
+}
+/*for the dot promo section */
+
+.dot-limited-dish:before, .dot-limited-dish:after {
+	width: 12%;
+}
+.dot-limited-dish:before, .dot-limited-dish:after {
+	background-color: #000001;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 4%;
+}
+.getDish:before, .getDish:after {
+	background-color: #000001;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 3%;
+}
+.arrow-redeem {
+	margin: 0 9px;
+}
+.redeem-hero {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.promo--nfl {
+	padding-bottom: 7px;
+	padding-top: 5px;
+}
+.promo--nfl img {
+	width: 91%;
+}
+.at120 .brd-grey {
+	height: 130px;
+}
+/*for the video section on the page */
+.hero-play__btn {
+	position: absolute;
+	bottom: 30px;
+	right: 40px;
+}
+.hero-play-txt {
+	position: relative;
+	left: -15px;
+}
+.hero-play__btn img {
+	width: 30px;
+	position: absolute;
+	top: 11px;
+}
+/*end of hero pay button*/
+.video__content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.video__content img {
+	width: 30px;
+	position: absolute;
+	top: 11px;
+}
+.play__btn {
+	padding-left: 20px;
+	position: relative;
+}
+.play-txt {
+	position: relative;
+	left: -15px;
+}
+
+
+/*video*/
+
+.hopper-alexa-play {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+@media all and (min-width: 375px) and (max-width: 667px) {
+.mob-banner {
+	padding-top: 2px;
+	width: 100%;
+	height: 790px!important;
+	background-color: #fff;
+}
+}
+
+@media all and (max-width: 767px) {
+/*for the video section on the page */
+.hero-play__btn {
+	position: absolute;
+	bottom: 30px;
+	right: 40px;
+}
+.hopper-alexa-play .cta__button--pill {
+	padding-bottom: 10px;
+}
+.hopper-alexa-play {
+	display: flex;
+    flex-direction: column;
+	margin: 0 auto;
+}
+/*.hopper-alexa-play .alexa-video-btn {
+	padding-top: 10px;
+}*/
+/*end of video section on the page */
+.section--banner {
+	overflow: hidden;
+	background: #edeef1 !important;
+	height: auto !important;
+	background-size: cover;
+	padding: 0;
+}
+.mob-banner {
+	padding-top: 2px;
+	width: 100%;
+	height: 750px;
+	background-color: #fff;
+}
+.mob-banner img {
+	width: 100%;
+}
+.hero-content h1 {
+	font-weight: 900;
+	width: 70%;
+	margin: 0 auto;
+	font-size: 38px;
+	padding-top: 35px;
+}
+#SecondaryNav2 {
+	display: none;
+}
+.free-inst {
+	padding-bottom: 5px;
+}
+/**/
+.price-box {
+	padding-left: 10px;
+}
+.hero-channel {
+	font-size: 70px;
+}
+.at-price-main {
+	font-size: 70px;
+}
+.hero-dollor {
+	position: relative;
+	top: -26px;
+	font-size: 35px;
+	left: 5px;
+}
+.hero-cent {
+	position: relative;
+	top: -31px;
+	font-size: 26px;
+}
+.hero-month {
+	position: relative;
+	left: -32px;
+	font-size: 22px;
+}
+/*font-styles for the hero banner*/
+
+.hero-cent {
+	position: relative;
+	top: -20px;
+}
+.font-one {
+	font-size: 12px;
+	font-weight: 900 !important;
+	width: 72%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 3px;
+}
+.font-two {
+	font-size: 13px;
+	padding-bottom: 18px;
+}
+.font-three {
+	font-size: 12px;
+	padding-bottom: 18px;
+}
+.font-four {
+	font-size: 12px;
+}
+.font-five {
+	font-size: 16px;
+	padding: 15px 0 15px 0;
+}
+.hero-content ul li {
+	font-size: 12px;
+	line-height: 1.5;
+}
+.break-mob {
+	display: block;
+}
+.pl-price {
+	margin-bottom: 17px;
+}
+#disclaimer--btm {
+	padding: 10px 60px 30px 60px;
+}
+/*hbo content*/
+.hbo-content img {
+	width: 40px;
+	position: relative;
+	top: 4px;
+}
+/*owl*/
+
+.owl-prev {
+	background: url(../images/car-arrow-left.png) no-repeat !important;
+	left: 17px;
+}
+.owl-next {
+	background: url(../images/car-arrow-right.png) no-repeat !important;
+}
+.owl-next {
+	padding-top: 0 !important;
+	top: 35% !important;
+	width: 46px !important;
+	font-size: 0;
+}
+#package-at {
+	background: #f2f5f7;
+}
+.owl-prev {
+	padding-top: 0 !important;
+	top: 35% !important;
+	width: 46px !important;
+	font-size: 0;
+}
+.hbo-content {
+	padding: 20px;
+	color: #0e97cf;
+	text-align: center;
+}
+.decalimer-mob {
+	font-size: 11px;
+	text-align: center;
+	padding: 0 10px 26px 10px;
+}
+.content-decalimer {
+	background: #fff;
+}
+.promoDot-main {
+	text-align: center;
+	background: #edeef1;
+	margin: -2px;
+	padding-bottom: 10px;
+	padding-top: 12px;
+}
+.getDish {
+	font-size: 12px;
+}
+.free {
+	font-size: 38px;
+}
+.offerCode {
+	padding: 10px;
+}
+.desktopHide {
+	display: none;
+}
+#nfl-promo-img {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+#nfl-promo-img img {
+	width: 70%;
+	right: 0;
+	margin: 0 auto;
+}
+.promo--nfl img {
+	width: 60%;
+}
+.hopper-alex-play {
+	flex-direction: column;
+    margin: 0 auto;
+}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+.section--banner {
+	overflow: hidden;
+	background: url(../images/hero-bg.jpg) no-repeat center;
+	background-size: cover;
+	padding: 0;
+	height: 440px !important;
+	margin-bottom: 50px;
+	background-position: 58% 8% !important;
+}
+.hero-content {
+	margin-left: 0 !important;
+}
+.hero-content h1 {
+	font-size: 1.7rem;
+	font-weight: 900;
+	margin: 19px 0 12px 0;
+}
+.at-price-main {
+	font-size: 42px;
+}
+.hero-channel {
+	font-size: 42px;
+}
+.hero-dollor {
+	position: relative;
+	top: -28px;
+}
+.mobile-only {
+	display: none;
+}
+/*fonts for the hero*/
+.font-one {
+	font-size: 12px;
+}
+.promo--hbo {
+	width: 52%;
+	margin: 0 auto;
+}
+.font-two {
+	font-size: 14px;
+}
+.font-three {
+	font-size: 12px;
+}
+.font-four {
+	font-size: 12px;
+}
+.font-five {
+	font-size: 14px;
+}
+.hero-content {
+	width: 44%;
+}
+/*price part*/
+.hero-dollor {
+	position: relative;
+	top: -18px;
+}
+.hero-cent {
+	position: relative;
+	top: -19px;
+}
+.hero-month {
+	position: relative;
+	left: -20px;
+}
+.hero-content ul li {
+	font-size: 10px;
+	line-height: 1.5;
+}
+.getDish {
+	font-size: 12px !important;
+}
+.hero-content p:nth-child(1) {
+	font-weight: 900 !important;
+}
+.free-inst {
+	padding-bottom: 7px;
+}
+.hbo-content img {
+	width: 40px;
+}
+.hbo-content {
+	color: #0e97cf;
+}
+.extra-space {
+	margin: 6px 0 19px 0 !important;
+}
+.hbo-content {
+	margin: 2px 0 25px 0;
+}
+.price-box p {
+	padding-left: 17px;
+}
+.at-content {
+	width: 191px;
+	border-right: 1px solid #000000;
+}
+.at-content:nth-child(4) {
+	border-right: none;
+}
+.wrapper__flex {
+	width: 100%;
+	-ms-flex-direction: row !important;
+	flex-direction: row !important;
+	-webkit-box-orient: vertical !important;
+}
+.mob-banner {
+	display: none !important;
+}
+#package-at {
+	background: rgba(242,245,247,0);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,245,247,0)), color-stop(17%, rgba(242,245,247,1)), color-stop(23%, rgba(242,245,247,1)), color-stop(71%, rgba(242,245,247,1)), color-stop(77%, rgba(242,245,247,1)), color-stop(100%, rgba(242,245,247,0)));
+	background: -webkit-gradient(linear, left top, right top, from(rgba(242,245,247,0)), color-stop(17%, rgba(242,245,247,1)), color-stop(23%, rgba(242,245,247,1)), color-stop(71%, rgba(242,245,247,1)), color-stop(77%, rgba(242,245,247,1)), to(rgba(242,245,247,0)));
+	background: linear-gradient(to right, rgba(242,245,247,0) 0%, rgba(242,245,247,1) 17%, rgba(242,245,247,1) 23%, rgba(242,245,247,1) 71%, rgba(242,245,247,1) 77%, rgba(242,245,247,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f7', endColorstr='#f2f5f7', GradientType=1 );
+}
+.promoDot-main {
+	position: absolute;
+	bottom: 0px;
+	right: 3%;
+	text-align: center;
+}
+.free {
+	font-size: 37px;
+}
+#nfl-promo-img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	top: 39%
+}
+#nfl-promo-img img {
+	width: 16%;
+}
+.hopper-alexa-play .alexa-video-btn {
+	padding-left: 5px;
+}
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+.section--banner {
+	overflow: hidden;
+	background: url(../images/hero-bg.jpg) no-repeat center;
+	background-size: cover;
+	padding: 0;
+	height: 500px !important;
+	margin-bottom: 10px;
+}
+.hero-content {
+	margin-left: 0 !important;
+}
+.hero-content h1 {
+	font-size: 2.7rem;
+	font-weight: 900;
+	margin: 19px 0 8px 0;
+}
+/*fonts for the hero*/
+.font-one {
+	font-size: 16px;
+	font-weight: 900!important;
+}
+.at-price-main {
+	font-size: 70px;
+}
+.hero-channel {
+	font-size: 70px;
+}
+.font-two {
+	font-size: 14px;
+}
+.font-three {
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+.font-four {
+	font-size: 12px;
+}
+.font-five {
+	font-size: 14px;
+}
+.hero-content {
+	width: 58%;
+}
+.free-inst {
+	font-size: 15px;
+}
+/*price part*/
+.hero-dollor {
+	position: relative;
+	top: -26px;
+	font-size: 31px;
+}
+.hero-cent {
+	position: relative;
+	top: -27px;
+	font-size: 29px;
+}
+.hero-month {
+	position: relative;
+	left: -38px;
+	font-size: 22px;
+}
+.hero-content ul li {
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'proxima_novaregular', sans-serif;
+}
+.hero-content p:nth-child(1) {
+	font-size: 1rem !important;
+	font-weight: 900 !important;
+}
+.hbo-content img {
+	width: 43px;
+	position: relative;
+	top: 5px;
+}
+.hbo-content {
+	color: #0e97cf;
+}
+.extra-space {
+	margin: 6px 0 10px 0 !important;
+}
+.hbo-content {
+	margin: 2px 0 9px 0;
+}
+.hbo-content .promo--hbo {
+	padding: 5px;
+}
+#nfl-promo-img img {
+	width: 15%;
+	float: right;
+}
+#nfl-promo-img {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+}
+}
+
+@media all and (min-width: 1025px) {
+.section--banner {
+	overflow: hidden;
+	background: url(../images/hero-bg.jpg) no-repeat center;
+	background-size: cover;
+	padding: 0;
+	height: 500px !important;
+	margin-bottom: 10px;
+}
+.hero-content {
+	margin-left: 0 !important;
+}
+.hero-content h1 {
+	font-size: 2.7rem;
+	font-weight: 900;
+	margin: 19px 0 8px 0;
+}
+/*fonts for the hero*/
+.font-one {
+	font-size: 16px;
+	font-weight: 900!important;
+}
+.at-price-main {
+	font-size: 70px;
+}
+.hero-channel {
+	font-size: 70px;
+}
+.font-two {
+	font-size: 14px;
+}
+.font-three {
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+.font-four {
+	font-size: 12px;
+}
+.font-five {
+	font-size: 14px;
+}
+.hero-content {
+	width: 58%;
+}
+.free-inst {
+	font-size: 15px;
+}
+/*price part*/
+.hero-dollor {
+	position: relative;
+	top: -26px;
+	font-size: 31px;
+}
+.hero-cent {
+	position: relative;
+	top: -27px;
+	font-size: 29px;
+}
+.hero-month {
+	position: relative;
+	left: -38px;
+	font-size: 22px;
+}
+.hero-content ul li {
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'proxima_novaregular', sans-serif;
+}
+.hero-content p:nth-child(1) {
+	font-size: 1rem !important;
+	font-weight: 900 !important;
+}
+.hbo-content img {
+	width: 43px;
+	position: relative;
+	top: 5px;
+}
+.hbo-content {
+	color: #0e97cf;
+}
+.extra-space {
+	margin: 6px 0 10px 0 !important;
+}
+.hbo-content {
+	margin: 2px 0 9px 0;
+}
+.hbo-content .promo--hbo {
+	padding: 5px;
+}
+.price-box p {
+	padding-left: 17px;
+}
+.at-content {
+	width: 191px;
+}
+.brd-grey {
+	border-right: 1px solid #b0b0b0;
+}
+.last {
+	border-right: none;
+}
+#package-at {
+	background: rgba(242,245,247,0);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,245,247,0)), color-stop(17%, rgba(242,245,247,1)), color-stop(23%, rgba(242,245,247,1)), color-stop(71%, rgba(242,245,247,1)), color-stop(77%, rgba(242,245,247,1)), color-stop(100%, rgba(242,245,247,0)));
+	background: -webkit-gradient(linear, left top, right top, from(rgba(242,245,247,0)), color-stop(17%, rgba(242,245,247,1)), color-stop(23%, rgba(242,245,247,1)), color-stop(71%, rgba(242,245,247,1)), color-stop(77%, rgba(242,245,247,1)), to(rgba(242,245,247,0)));
+	background: linear-gradient(to right, rgba(242,245,247,0) 0%, rgba(242,245,247,1) 17%, rgba(242,245,247,1) 23%, rgba(242,245,247,1) 71%, rgba(242,245,247,1) 77%, rgba(242,245,247,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f7', endColorstr='#f2f5f7', GradientType=1 );
+}
+/*for the dot part*/
+.offerCode {
+	position: relative;
+	padding: 5px;
+}
+.promoDot-main {
+	position: absolute;
+	right: 0%;
+	bottom: 4px;
+	width: 396px;
+	text-align: center;
+}
+#nfl-promo-img {
+	position: absolute;
+	left: 0;
+	bottom: 42%;
+}
+#nfl-promo-img img {
+	width: 80%;
+}
+.redeem-hero {
+	padding-top: 8px;
+	font-size: 15px;
+}
+.redeem-hero a:hover {
+	text-decoration: underline;
+}
+.arrow img {
+	width: 17px;
+}
+.free {
+	font-size: 46px;
+}
+.hero-content .cta--order--text {
+	padding: 7px 0 5px 0;
+}
+.mobile-only {
+	display: none;
+}
+.hopper-alexa-play .alexa-video-btn {
+	padding-left: 10px;
+}
+}
+
+@media all and (min-width: 1440px) {
+.promoDot-main {
+	position: absolute;
+	right: 3%;
+	bottom: 4px;
+	width: 396px;
+	text-align: center;
+}
+.hero-play__btn {
+	position: absolute;
+	bottom: 30px;
+	right: 307px;
+}
+}
+
+@media all and (min-width: 1600px) {
+.section--banner {
+	height: 595px !important;
+}
+.hero-content {
+	padding-top: 35px;
+}
+.top-dish img {
+	margin-left: 46px;
+}
+.hero-content {
+	width: 68%;
+}
+.promoDot-main {
+	position: absolute;
+	right: 9%;
+	bottom: 27px;
+	width: 430px;
+	text-align: center;
+}
+.mobile-only {
+	display: none;
+}
+#nfl-promo-img {
+	position: absolute;
+	left: 6%;
+	bottom: 40%;
+}
+#nfl-promo-img img {
+	width: 100%;
+}
+}
+
+@media all and (min-width: 1920px) {
+#nfl-promo-img {
+	position: absolute;
+	left: 8%;
+	bottom: 40%;
+}
+}

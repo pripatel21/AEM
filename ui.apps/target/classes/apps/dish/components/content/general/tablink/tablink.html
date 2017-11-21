@@ -1,0 +1,13 @@
+<div data-sly-test="${wcmmode.edit}">
+    Edit the tab link component.
+</div>
+<section id="wtgn" class="section--wtgn" data-sly-use.model="use.js">
+  <div class="wrapper__flex">
+    <div class="links--left" data-sly-list.left="${model.leftLinks}"> 
+    	<a href="${left.link}">${left.text}</a> 
+    </div>
+    <div class="links--right"data-sly-list.right="${model.rightLinks}"> 
+    	<a href="${right.link}">${right.text}</a> 
+    </div>
+  </div>
+</section>
