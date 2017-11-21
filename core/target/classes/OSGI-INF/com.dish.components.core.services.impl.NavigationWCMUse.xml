@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="com.dish.components.core.services.impl.NavigationWCMUse">
+        <implementation class="com.dish.components.core.services.impl.NavigationWCMUse"/>
+        <service servicefactory="false">
+            <provide interface="io.sightly.java.api.Use"/>
+        </service>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.dish.components.core.services.impl.NavigationWCMUse"/>
+        <reference name="getHeaderFooterNav" interface="com.dish.components.core.services.GetHeaderFooterNav" cardinality="1..1" policy="static" bind="bindGetHeaderFooterNav" unbind="unbindGetHeaderFooterNav"/>
+    </scr:component>
+</components>

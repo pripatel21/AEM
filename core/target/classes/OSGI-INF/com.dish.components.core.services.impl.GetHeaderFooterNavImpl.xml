@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component immediate="true" name="com.dish.components.core.services.impl.GetHeaderFooterNavImpl" activate="activate">
+        <implementation class="com.dish.components.core.services.impl.GetHeaderFooterNavImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.dish.components.core.services.GetHeaderFooterNav"/>
+        </service>
+        <property name="headerLink" value="https://www.dish.com/verify-aem/pageheadhandler.ashx"/>
+        <property name="headerBodyLink" value="https://www.dish.com/verify-aem/headerbodyhandler.ashx"/>
+        <property name="footerBodyLink" value="https://www.dish.com/verify-aem/footerbodyhandler.ashx"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.dish.components.core.services.impl.GetHeaderFooterNavImpl"/>
+    </scr:component>
+</components>

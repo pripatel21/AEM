@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component immediate="true" name="com.dish.components.core.services.util.PersistNavToJCRImpl">
+        <implementation class="com.dish.components.core.services.util.PersistNavToJCRImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.dish.components.core.services.PersistNavToJCR"/>
+        </service>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.dish.components.core.services.util.PersistNavToJCRImpl"/>
+        <reference name="repository" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepository" unbind="unbindRepository"/>
+    </scr:component>
+</components>

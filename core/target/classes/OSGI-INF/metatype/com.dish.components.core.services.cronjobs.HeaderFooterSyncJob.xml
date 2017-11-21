@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.dish.components.core.services.cronjobs.HeaderFooterSyncJob">
+    <OCD id="com.dish.components.core.services.cronjobs.HeaderFooterSyncJob" name="%com.dish.components.core.services.cronjobs.HeaderFooterSyncJob.name" description="%com.dish.components.core.services.cronjobs.HeaderFooterSyncJob.description">
+        <AD id="scheduler.expression" type="String" default="0\ 0\ 8\,20\ *\ *\ ?" name="%com.dish.components.core.services.cronjobs.HeaderFooterSyncJob.scheduler.expression.name" description="%com.dish.components.core.services.cronjobs.HeaderFooterSyncJob.scheduler.expression.description"/>
+        <AD id="header.footer.sync.enabled" type="Boolean" default="false" name="%com.dish.components.core.services.cronjobs.HeaderFooterSyncJob.header.footer.sync.enabled.name" description="%com.dish.components.core.services.cronjobs.HeaderFooterSyncJob.header.footer.sync.enabled.description"/>
+    </OCD>
+    <Designate pid="com.dish.components.core.services.cronjobs.HeaderFooterSyncJob">
+        <Object ocdref="com.dish.components.core.services.cronjobs.HeaderFooterSyncJob"/>
+    </Designate>
+</metatype:MetaData>

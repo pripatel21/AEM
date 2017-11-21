@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="com.dish.components.core.services.cronjobs.HeaderFooterSyncJob" activate="activate">
+        <implementation class="com.dish.components.core.services.cronjobs.HeaderFooterSyncJob"/>
+        <service servicefactory="false">
+            <provide interface="java.lang.Runnable"/>
+        </service>
+        <property name="scheduler.expression" value="0 0 8,20 * * ?"/>
+        <property name="scheduler.concurrent" type="Boolean" value="false"/>
+        <property name="header.footer.sync.enabled" type="Boolean" value="false"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.dish.components.core.services.cronjobs.HeaderFooterSyncJob"/>
+        <reference name="persistNavToJCR" interface="com.dish.components.core.services.PersistNavToJCR" cardinality="1..1" policy="static" bind="bindPersistNavToJCR" unbind="unbindPersistNavToJCR"/>
+        <reference name="getMenu" interface="com.dish.components.core.services.GetHeaderFooterNav" cardinality="1..1" policy="static" bind="bindGetMenu" unbind="unbindGetMenu"/>
+    </scr:component>
+</components>

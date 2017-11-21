@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.dish.components.core.services.impl.GetHeaderFooterNavImpl">
+    <OCD id="com.dish.components.core.services.impl.GetHeaderFooterNavImpl" name="%com.dish.components.core.services.impl.GetHeaderFooterNavImpl.name" description="%com.dish.components.core.services.impl.GetHeaderFooterNavImpl.description">
+        <AD id="headerLink" type="String" default="https://www.dish.com/verify-aem/pageheadhandler.ashx" name="%com.dish.components.core.services.impl.GetHeaderFooterNavImpl.headerLink.name" description="%com.dish.components.core.services.impl.GetHeaderFooterNavImpl.headerLink.description"/>
+        <AD id="headerBodyLink" type="String" default="https://www.dish.com/verify-aem/headerbodyhandler.ashx" name="%com.dish.components.core.services.impl.GetHeaderFooterNavImpl.headerBodyLink.name" description="%com.dish.components.core.services.impl.GetHeaderFooterNavImpl.headerBodyLink.description"/>
+        <AD id="footerBodyLink" type="String" default="https://www.dish.com/verify-aem/footerbodyhandler.ashx" name="%com.dish.components.core.services.impl.GetHeaderFooterNavImpl.footerBodyLink.name" description="%com.dish.components.core.services.impl.GetHeaderFooterNavImpl.footerBodyLink.description"/>
+    </OCD>
+    <Designate pid="com.dish.components.core.services.impl.GetHeaderFooterNavImpl">
+        <Object ocdref="com.dish.components.core.services.impl.GetHeaderFooterNavImpl"/>
+    </Designate>
+</metatype:MetaData>
