@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>dish-components - UI content</comment>
+<entry key="createdBy">narreddy</entry>
+<entry key="name">dish-components.ui.content</entry>
+<entry key="created">2017-11-08T20:05:38.212-0500</entry>
+<entry key="groupId">dish</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">Dish</entry>
+<entry key="description">UI content package for dish-components</entry>
+<entry key="artifactId">dish-components.ui.content</entry>
+<entry key="path">/etc/packages/Dish/dish-components.ui.content.zip</entry>
+</properties>
